@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.characterBlock {
+  background-image:url("brown-sheet.jpg");
+  margin:20px;
+  padding:20px;
+  padding-top:10px;
+  text-align:center;
+  width:400px;
+}
+
+.monsterBlock {
+  background-image:url("gray-sheet.jpg");
+  margin:20px;
+  padding:20px;
+  padding-top:10px;
+  text-align:center;
+  width:400px;
+}
+
+.itemBlock {
+  background-image:url("purple-sheet.jpg");
+  margin:20px;
+  padding:20px;
+  padding-top:10px;
+  text-align:center;
+  width:400px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #270B44;
+  color: white;
+  text-align: center;
+}
+
+.inputBox {
+  border-color:transparent;
+  background-color:#F2E5A2;
+  margin-left:10px;
+}
+
+.submitBox {
+  border-color:transparent;
+  background-color:#DDBA58;
+  margin-left:10px;
+}
+
+.plusBox {
+  border-color:transparent;
+  margin:10px;
+  background-color:green;
+}
+
+.minusBox {
+  border-color:transparent;
+  margin:10px;
+  background-color:red;
+}
+
+.deleteBox {
+  border-color:transparent;
+  margin:10px;
+  background-color:silver;
+}
